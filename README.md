@@ -1,4 +1,4 @@
-# Dynamic Clock using javscript
+# Dynamic Clock using javascript
 JavaScript can be executed in time-intervals.  This is called timing events.
 # Timing Events
 The window object allows execution of code at specified time intervals.
