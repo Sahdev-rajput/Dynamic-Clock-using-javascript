@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Sahdev Rajput</title>
+    </head>
+    <style>
+        #sahdev
+        {
+           color:red;
+        }
+    </style>
+    <body onload="test()">
+        <h1 id="text">My name is sahdev rajput</h1>
+        <h3 id="txt"></h3>
+        <h4 id="sahdev"></h4>
+        <h4 id="raj" onload="test1()"></h4>
+        <script>
+            const students={
+                     id:10,
+                     name:'sahdev',
+                     class:'ten',
+            };
+            document.getElementById("txt").innerHTML=students.id;
+            function test(){
+            var d=new Date;
+            var h=d.toLocaleTimeString();
+            document.getElementById("sahdev").innerHTML=h;
+            }
+            setInterval('test()',1000);
+            function test1()
+            {
+                alert("Hello, Welcome to the world of Javascript");
+            }
+
+           setTimeout('test1()',3000);
+            </script>
+    </body>
+</html>
