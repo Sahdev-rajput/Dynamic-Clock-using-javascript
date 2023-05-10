@@ -56,7 +56,7 @@ The clearInterval() method uses the variable returned from setInterval():
 > clearInterval(myVar);
 
 
-                                                              HOPE IT HELPS 👌👌👌
+                                           HOPE IT HELPS 👌👌👌
                                                               
                                                               
-                                                              Click here to view: 
+   Click here to view: 
